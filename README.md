@@ -1,6 +1,5 @@
 # 📊 Company Bankruptcy Prediction
 
-> 📝 **This is the official repository for the Company Bankruptcy Prediction project**, developed as part of the EE708 course at **IIT Kanpur**.
 
 ---
 
