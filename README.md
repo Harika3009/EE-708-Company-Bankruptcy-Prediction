@@ -26,8 +26,4 @@ This repository contains the complete pipeline for predicting company bankruptcy
 | Features Used | Reduced from 96 → 30 using ANOVA |
 | Class Imbalance | 35:1 handled with SMOTE |
 
----
-
-## 📁 Folder Structure
-
 
