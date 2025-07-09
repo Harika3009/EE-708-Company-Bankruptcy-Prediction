@@ -1,39 +1,34 @@
-🏦 Company Bankruptcy Prediction
+# 📊 Company Bankruptcy Prediction
 
-This repository contains code, models, and evaluation tools for a machine learning project that predicts company bankruptcy using financial indicators. The project combines traditional and deep learning approaches for robust classification performance.
+> 📝 **This is the official repository for the Company Bankruptcy Prediction project**, developed as part of the EE708 course at **IIT Kanpur**.
 
-📁 Contents
+---
 
-Code.ipynb: Main notebook for data preprocessing, model training, and predictions.
+## 📌 Project Summary
 
-Evaluation.ipynb: Contains metrics, visualizations, and model comparisons.
+This repository contains the complete pipeline for predicting company bankruptcy using traditional and deep learning models. The project integrates preprocessing, feature selection, class imbalance handling, and evaluation.
 
-Company-Bankruptcy-Prediction.pdf: Project report summarizing objective, methodology, results, and key insights.
+---
 
-GaussianNB_model (1).pkl: Trained Gaussian Naive Bayes model.
+## 🧠 Models Used
 
-dnn_model.h5: Trained Deep Neural Network model.
+- 🟢 Gaussian Naive Bayes (GNB)
+- 🟢 Deep Neural Network (DNN)
+- 🟢 Hybrid Soft Voting Strategy
 
-scaler.pkl: Scikit-learn standard scaler used for data normalization.
+---
 
-🧠 Models Used
+## 🔍 Performance Summary
 
-Gaussian Naive Bayes (GNB): Efficient baseline classifier.
+| Metric        | Value       |
+|---------------|-------------|
+| Accuracy      | 97.23%      |
+| F1-Score      | 0.51        |
+| Features Used | Reduced from 96 → 30 using ANOVA |
+| Class Imbalance | 35:1 handled with SMOTE |
 
-Deep Neural Network (DNN): For capturing complex feature interactions.
+---
 
-Hybrid Voting Strategy: Combined predictions from both models using soft voting.
+## 📁 Folder Structure
 
-📊 Performance Highlights
 
-Accuracy: 97.23%
-
-F1-score: Improved from baseline to 0.51 using hybrid voting and class balancing.
-
-⚙️ Libraries
-
-Scikit-learn
-
-TensorFlow / Keras
-
-NumPy, Pandas, Matplotlib
